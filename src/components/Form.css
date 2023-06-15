@@ -28,6 +28,9 @@
     font-weight: bold;
 
 }
+.malzemeler-container div{
+    width: 30%;
+}
 
 .not{
     font-weight: bold;

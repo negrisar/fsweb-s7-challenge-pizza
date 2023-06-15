@@ -203,6 +203,7 @@ const Forms = () => {
             <br />
 
             <div className="malzemeler-container">
+              <div>
               <Label htmlFor="for-pepperoni">Pepperoni </Label>
               <Input
                 id="for-pepperoni"
@@ -210,7 +211,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-
+              </div>
+              <div>
               <Label htmlFor="for-domates">Domates </Label>
               <Input
                 id="for-domates"
@@ -218,7 +220,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-
+              </div>
+              <div>
               <Label htmlFor="for-biber">Biber </Label>
               <Input
                 id="for-biber"
@@ -226,8 +229,10 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
+              </div>
               <br />
-
+              
+              <div>
               <Label htmlFor="for-sosis">Sosis </Label>
               <Input
                 id="for-sosis"
@@ -235,7 +240,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-
+              </div>
+              <div>
               <Label htmlFor="for-misir">Mısır </Label>
               <Input
                 id="for-misir"
@@ -243,7 +249,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-
+              </div>
+              <div>
               <Label htmlFor="for-sucuk">Sucuk </Label>
               <Input
                 id="for-sucuk"
@@ -251,8 +258,9 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
+              </div>
               <br/>
-
+              <div>
               <Label htmlFor="for-jambon">Kanada Jambonu </Label>
               <Input
                 id="for-jambon"
@@ -260,7 +268,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-
+              </div>
+              <div>
               <Label htmlFor="for-Ananas">Ananas </Label>
               <Input
                 id="for-Ananas"
@@ -268,7 +277,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-              
+              </div>
+              <div>
               <Label htmlFor="for-tavuk">Tavuk Izgara </Label>
               <Input
                 id="for-tavuk"
@@ -276,8 +286,9 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
+              </div>
               <br />
-              
+              <div>
               <Label htmlFor="for-jalepeno">Jalepeno </Label>
               <Input
                 id="for-jalepeno"
@@ -285,7 +296,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-
+              </div>
+              <div>
               <Label htmlFor="for-kabak">Kabak </Label>
               <Input
                 id="for-kabak"
@@ -293,7 +305,8 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
-              
+              </div>
+              <div>
               <Label htmlFor="for-sogan">Soğan </Label>
               <Input
                 id="for-sogan"
@@ -301,8 +314,9 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
+              </div>
               <br />
-
+              <div>
               <Label htmlFor="for-sarimsak">Sarımsak </Label>
               <Input
                 id="for-sarimsak"
@@ -310,6 +324,7 @@ const Forms = () => {
                 type="checkbox"
                 onChange={inputCheckboxHandler}
               />
+              </div>
             </div>
           </FormGroup>
           <br />
