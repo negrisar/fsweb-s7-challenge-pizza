@@ -1,11 +1,31 @@
 import React from "react";
+import { BrowserRouter as  Switch, Route }  from "react-router-dom";
+import Anasayfa from "./components/Anasayfa";
+import SiparisFormu from "./components/SiparisFormu";
+import SiparisOnay from "./components/SiparisOnayı";
 
 const App = () => {
+
   return (
-    <>
-      <h1>Teknolojik Yemekler</h1>
-      <p>Burdaki kodu silip kendi headerınızı ekleyebilirsiniz</p>
-    </>
+      
+        <Switch>
+
+          <Route exact path="/">
+            <Anasayfa />
+          </Route>
+
+          <Route path="/pizza">
+            <SiparisFormu />
+          </Route>
+
+          <Route path="/success">
+            <SiparisOnay />
+          </Route>
+          
+
+        </Switch>
+   
   );
 };
+
 export default App;

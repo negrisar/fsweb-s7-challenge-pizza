@@ -1,0 +1,75 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    background-color: #CE2829;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    margin: auto;
+}
+
+
+ul{
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    color: white;
+    padding-left: 0;
+    padding-left: 25rem;
+}
+
+a{
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.product-container{
+    margin: auto;
+    width: 50%;
+}
+
+.product-container p{
+    color: black;
+    font-size: 1rem;
+    padding: 0;
+    text-align: left;
+}
+
+.product-container h2{
+    text-align:left;
+
+}
+
+.pizza-info{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+.price{
+    width: 50%;
+}
+
+.price p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.product-container p{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-hakkinda{
+ padding-top: 2rem;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+}
+
+

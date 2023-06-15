@@ -1,0 +1,47 @@
+.hamur{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.malzemeler{
+    display: flex;
+}
+
+.hamur legend{
+    font-weight: bold;
+}
+
+.hamur label{
+    font-weight: bold;
+}
+
+.boyut-sec label{
+    font-weight: 400;
+}
+
+.malzemeler-container  {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.not{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.not label{
+    padding-bottom: 1rem;
+
+}
+
+.not input{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+

@@ -1,0 +1,17 @@
+.onay {
+    background-color: #ce2829;
+    background-image: url("../components/mvp-banner.png");
+    width: 100%;
+    height: 70rem;
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .onay p {
+    font-size: 3rem;
+  }

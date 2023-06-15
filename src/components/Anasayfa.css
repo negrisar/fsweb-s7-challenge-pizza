@@ -1,0 +1,50 @@
+
+
+.header{
+  margin: auto;
+  background-image: url("../components/mvp-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.text-content {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+    color: #FAF7F2;
+    margin: auto;
+    font-family: "Barlow", sans-serif;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+
+   #acıktım{
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #fdc913;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: none;
+  }
+
+ #acıktım:hover {
+    background-color: #f5bd15; 
+  }
+
+
+
